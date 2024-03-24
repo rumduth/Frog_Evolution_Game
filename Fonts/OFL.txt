@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Frog Evolution" />
+  <renderer width="1500" height="768"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+    <sprite name="background" file="background.png"/>
+    <sprite name="textwheel" file="textwheel.png"/>
+    <sprite name="standleft" file="standleft.png"/>
+    <sprite name="standright" file="standright.png"/>
+	 
+    <sprite name="walkrightsheet" file="walkright.png"/>
+    <sprite name="walkright" sheet="walkrightsheet" frames="8">
+      <frame index="0" left="0"   top="0" right="76"  bottom="98"/>>
+      <frame index="1" left="76"  top="0" right="152" bottom="98"/>>
+      <frame index="2" left="152" top="0" right="228" bottom="98"/>>
+      <frame index="3" left="228" top="0" right="304" bottom="98"/>>
+      <frame index="4" left="304" top="0" right="380" bottom="98"/>>
+      <frame index="5" left="380" top="0" right="456" bottom="98"/>>
+      <frame index="6" left="456" top="0" right="532" bottom="98"/>>
+      <frame index="7" left="532" top="0" right="608" bottom="98"/>>
+    </sprite>
+	
+    <sprite name="walkleftsheet" file="walkleft.png"/>
+    <sprite name="walkleft" sheet="walkleftsheet" frames="8">
+      <frame index="7" left="0"   top="0" right="76"  bottom="98"/>>
+      <frame index="6" left="76"  top="0" right="152" bottom="98"/>>
+      <frame index="5" left="152" top="0" right="228" bottom="98"/>>
+      <frame index="4" left="228" top="0" right="304" bottom="98"/>>
+      <frame index="3" left="304" top="0" right="380" bottom="98"/>>
+      <frame index="2" left="380" top="0" right="456" bottom="98"/>>
+      <frame index="1" left="456" top="0" right="532" bottom="98"/>>
+      <frame index="0" left="532" top="0" right="608" bottom="98"/>>
+    </sprite>
+	
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds path="Media\Sounds">
+    <sound name="clang" file="clang.wav" instances="8"/>
+    <sound name="grunt" file="umph.wav" instances="8"/>
+  </sounds>
+</settings>

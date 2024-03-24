@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Frog Evolution - DPT Studio" />
+  <renderer width="1400" height="768"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+    <sprite name="background" file="background.jpg"/>
+    
+````<sprite name="standleftsheet" file="frog_sheet.jpg"/>
+    <sprite name="standleft" sheet="standleftsheet" frames="1">
+      <frame index="0" left="224" top="160" right="256" bottom="192"/>>
+    </sprite>
+    
+    <sprite name="standrightsheet" file="frog_sheet.jpg"/>
+    <sprite name="standright" sheet="standrightsheet" frames="1">
+      <frame index="0" left="224" top="192" right="256" bottom="224"/>>
+    </sprite>
+  
+    <sprite name="walkrightsheet" file="frog_sheet.jpg"/>
+    <sprite name="walkright" sheet="walkrightsheet" frames="3">
+      <frame index="0" left="192" top="192" right="224" bottom="224"/>>
+      <frame index="1" left="224" top="192" right="256" bottom="224"/>>
+      <frame index="2" left="256" top="192" right="288" bottom="224"/>>
+    </sprite>
+    
+    <sprite name="walkleftsheet" file="frog_sheet.jpg"/>
+    <sprite name="walkleft" sheet="walkleftsheet" frames="3">
+      <frame index="0" left="192" top="160" right="224" bottom="192"/>>
+      <frame index="1" left="224" top="160" right="256" bottom="192"/>>
+      <frame index="2" left="256" top="160" right="288" bottom="192"/>>
+    </sprite>
+    
+    <sprite name="walkupsheet" file="frog_sheet.jpg"/>
+    <sprite name="walkup" sheet="walkupsheet" frames="3">
+      <frame index="0" left="192" top="224" right="224" bottom="256"/>>
+      <frame index="1" left="224" top="224" right="256" bottom="256"/>>
+      <frame index="2" left="256" top="224" right="288" bottom="256"/>>
+    </sprite>
+  
+    <sprite name="walkdownsheet" file="frog_sheet.jpg"/>
+    <sprite name="walkdown" sheet="walkdownsheet" frames="3">
+      <frame index="0" left="192" top="128" right="224" bottom="160"/>>
+      <frame index="1" left="224" top="128" right="256" bottom="160"/>>
+      <frame index="2" left="256" top="128" right="288" bottom="160"/>>
+    </sprite>
+    
+   <!-- For Chicken-->
+    <sprite name="chickenstandleftsheet" file="frog_sheet.jpg"/>
+    <sprite name="chickenstandleft" sheet="chickenstandleftsheet" frames="1">
+      <frame index="0" left="128" top="160" right="160" bottom="192"/>>
+    </sprite>
+
+    <sprite name="chickenstandrightsheet" file="frog_sheet.jpg"/>
+    <sprite name="chickenstandright" sheet="chickenstandrightsheet" frames="1">
+      <frame index="0" left="128" top="192" right="160" bottom="224"/>>
+    </sprite>
+
+    <sprite name="chickenwalkrightsheet" file="frog_sheet.jpg"/>
+    <sprite name="chickenwalkright" sheet="chickenwalkrightsheet" frames="3">
+      <frame index="0" left="96" top="192" right="128" bottom="224"/>>
+      <frame index="1" left="128" top="192" right="160" bottom="224"/>>
+      <frame index="2" left="160" top="192" right="192" bottom="224"/>>
+    </sprite>
+
+    <sprite name="chickenwalkleftsheet" file="frog_sheet.jpg"/>
+    <sprite name="chickenwalkleft" sheet="chickenwalkleftsheet" frames="3">
+      <frame index="0" left="96" top="160" right="128" bottom="192"/>>
+      <frame index="1" left="128" top="160" right="160" bottom="192"/>>
+      <frame index="2" left="160" top="160" right="192" bottom="192"/>>
+    </sprite>
+
+    <sprite name="chickenwalkupsheet" file="frog_sheet.jpg"/>
+    <sprite name="chickenwalkup" sheet="chickenwalkupsheet" frames="3">
+      <frame index="0" left="192" top="224" right="224" bottom="256"/>>
+      <frame index="1" left="224" top="224" right="256" bottom="256"/>>
+      <frame index="2" left="256" top="224" right="288" bottom="256"/>>
+    </sprite>
+
+    <sprite name="chickenwalkdownsheet" file="frog_sheet.jpg"/>
+    <sprite name="chickenwalkdown" sheet="chickenwalkdownsheet" frames="3">
+      <frame index="0" left="192" top="128" right="224" bottom="160"/>>
+      <frame index="1" left="224" top="128" right="256" bottom="160"/>>
+      <frame index="2" left="256" top="128" right="288" bottom="160"/>>
+    </sprite>
+
+    <!-- For Spider-->
+    <sprite name="spidersheet" file="spidersprite.png"/>
+      <sprite  name="spider" sheet="spidersheet" frames="12">
+        <frame index="0" left="0" top="0" right="32" bottom="32"/>>
+        <frame index="1" left="32" top="0" right="64" bottom="32"/>>
+        <frame index="2" left="64" top="0" right="96" bottom="32"/>>
+        <frame index="3" left="0" top="32" right="32" bottom="64"/>>
+        <frame index="4" left="32" top="32" right="64" bottom="64"/>>
+        <frame index="5" left="64" top="32" right="96" bottom="64"/>>
+        <frame index="6" left="0" top="64" right="32" bottom="96"/>>
+        <frame index="7" left="32" top="64" right="64" bottom="96"/>>
+        <frame index="8" left="64" top="64" right="96" bottom="96"/>>
+        <frame index="9" left="0" top="96" right="32" bottom="128"/>>
+        <frame index="10" left="32" top="96" right="64" bottom="128"/>>
+        <frame index="11" left="64" top="96" right="96" bottom="128"/>>
+      </sprite>
+
+    <sprite name="snailsheet" file="snailsprite.png"/>
+    <sprite  name="snail" sheet="snailsheet" frames="12">
+      <frame index="0" left="0" top="0" right="32" bottom="32"/>>
+      <frame index="1" left="32" top="0" right="64" bottom="32"/>>
+      <frame index="2" left="64" top="0" right="96" bottom="32"/>>
+      <frame index="3" left="0" top="32" right="32" bottom="64"/>>
+      <frame index="4" left="32" top="32" right="64" bottom="64"/>>
+      <frame index="5" left="64" top="32" right="96" bottom="64"/>>
+      <frame index="6" left="0" top="64" right="32" bottom="96"/>>
+      <frame index="7" left="32" top="64" right="64" bottom="96"/>>
+      <frame index="8" left="64" top="64" right="96" bottom="96"/>>
+      <frame index="9" left="0" top="96" right="32" bottom="128"/>>
+      <frame index="10" left="32" top="96" right="64" bottom="128"/>>
+      <frame index="11" left="64" top="96" right="96" bottom="128"/>>
+    </sprite>
+
+    <sprite name="watersheet" file="pondsprite.png"/>
+    <sprite  name="water" sheet="watersheet" frames="6">
+      <frame index="0" left="0" top="0" right="64" bottom="32"/>>
+      <frame index="1" left="64" top="0" right="128" bottom="32"/>>
+      <frame index="2" left="128" top="0" right="192" bottom="32"/>>
+      <frame index="3" left="192" top="0" right="256" bottom="32"/>>
+      <frame index="4" left="256" top="0" right="320" bottom="32"/>>
+      <frame index="5" left="320" top="0" right="384" bottom="32"/>>
+    </sprite>
+    
+    
+
+   
+    <sprite name="foxmoveupspritesheet" file="foxsprite.png"/>
+    <sprite name="foxmoveup" sheet="foxmoveupspritesheet" frames="3">
+      <frame index="0" left="0" top="0" right="32" bottom="32"/>>
+      <frame index="1" left="32" top="0" right="64" bottom="32"/>>
+      <frame index="2" left="64" top="0" right="96" bottom="32"/>>
+    </sprite>
+    <sprite name="foxmovedownspritesheet" file="foxsprite.png"/>
+    <sprite name="foxmovedown" sheet="foxmovedownspritesheet" frames="3">
+      <frame index="0" left="0" top="32" right="32" bottom="64"/>>
+      <frame index="1" left="32" top="32" right="64" bottom="64"/>>
+      <frame index="2" left="64" top="32" right="96" bottom="64"/>>
+    </sprite>
+
+    <sprite name="hawkrightspritesheet" file="hawksprite.png"/>
+    <sprite name="hawkmoveright" sheet="hawkrightspritesheet" frames="5">
+      <frame index="0" left="0" top="32" right="32" bottom="64"/>>
+      <frame index="1" left="32" top="32" right="64" bottom="64"/>>
+      <frame index="2" left="64" top="32" right="96" bottom="64"/>>
+      <frame index="3" left="96" top="32" right="128" bottom="64"/>>
+      <frame index="4" left="128" top="32" right="160" bottom="64"/>>
+  </sprite>
+
+    <sprite name="hawkleftspritesheet" file="hawksprite.png"/>
+    <sprite name="hawkmoveleft" sheet="hawkleftspritesheet" frames="5">
+      <frame index="0" left="0" top="0" right="32" bottom="32"/>>
+      <frame index="1" left="32" top="0" right="64" bottom="32"/>>
+      <frame index="2" left="64" top="0" right="96" bottom="32"/>>
+      <frame index="3" left="96" top="0" right="128" bottom="32"/>>
+      <frame index="4" left="128" top="0" right="160" bottom="32"/>>
+    </sprite>
+
+
+    <sprite name="standleftsheet1" file="poisonfrogsprite.png"/>
+    <sprite name="standleft1" sheet="standleftsheet1" frames="1">
+      <frame index="0" left="32" top="32" right="64" bottom="64"/>>
+    </sprite>
+
+    <sprite name="standrightsheet1" file="poisonfrogsprite.png"/>
+    <sprite name="standright1" sheet="standrightsheet1" frames="1">
+      <frame index="0" left="32" top="64" right="64" bottom="96"/>>
+    </sprite>
+
+    <sprite name="walkrightsheet1" file="poisonfrogsprite.png"/>
+    <sprite name="walkright1" sheet="walkrightsheet1" frames="3">
+      <frame index="0" left="0" top="64" right="32" bottom="96"/>>
+      <frame index="1" left="32" top="64" right="64" bottom="96"/>>
+      <frame index="2" left="64" top="64" right="96" bottom="96"/>>
+    </sprite>
+
+    <sprite name="walkleftsheet1" file="poisonfrogsprite.png"/>
+    <sprite name="walkleft1" sheet="walkleftsheet1" frames="3">
+      <frame index="0" left="0" top="32" right="32" bottom="64"/>>
+      <frame index="1" left="32" top="32" right="64" bottom="64"/>>
+      <frame index="2" left="64" top="32" right="96" bottom="64"/>>
+    </sprite>
+
+    <sprite name="walkupsheet1" file="poisonfrogsprite.png"/>
+    <sprite name="walkup1" sheet="walkupsheet1" frames="3">
+      <frame index="0" left="0" top="96" right="32" bottom="128"/>>
+      <frame index="1" left="32" top="96" right="64" bottom="128"/>>
+      <frame index="2" left="64" top="96" right="96" bottom="128"/>>
+    </sprite>
+
+    <sprite name="walkdownsheet1" file="poisonfrogsprite.png"/>
+    <sprite name="walkdown1" sheet="walkdownsheet1" frames="3">
+      <frame index="0" left="0" top="0" right="32" bottom="32"/>>
+      <frame index="1" left="32" top="0" right="64" bottom="32"/>>
+      <frame index="2" left="64" top="0" right="96" bottom="32"/>>
+    </sprite>
+
+    <sprite name="grasssheet" file="grassprite.png"/>
+    <sprite name="grass" sheet="grasssheet" frames="12">
+      <frame index="0" left="0" top="0" right="32" bottom="32"/>>
+      <frame index="1" left="32" top="0" right="64" bottom="32"/>>
+      <frame index="2" left="64" top="0" right="96" bottom="32"/>>
+      <frame index="3" left="0" top="32" right="32" bottom="64"/>>
+      <frame index="4" left="32" top="32" right="64" bottom="64"/>>
+      <frame index="5" left="64" top="32" right="96" bottom="64"/>>
+      <frame index="6" left="0" top="64" right="32" bottom="96"/>>
+      <frame index="7" left="32" top="64" right="64" bottom="96"/>>
+      <frame index="8" left="64" top="64" right="96" bottom="96"/>>
+      <frame index="9" left="0" top="96" right="32" bottom="128"/>>
+      <frame index="10" left="32" top="96" right="64" bottom="128"/>>
+      <frame index="11" left="64" top="96" right="96" bottom="128"/>>
+    </sprite>
+
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds path="Media\Sounds">
+    <sound name="background" file="background.wav" instances="8"/>
+    <sound name="hawk" file="hawk.wav" instances="8"/>
+    <sound name="chicken" file="chicken.wav" instances="8"/>
+    <sound name="slurp" file="slurp.wav" instances="8"/>
+    <sound name="lose" file="lose.wav" instances="8"/>
+    <sound name="win" file="win.wav" instances="8"/>
+    <sound name="frog" file="frog.wav" instances="8"/>
+    <sound name="heal" file="heal.wav" instances="8"/>
+  </sounds>
+</settings>
